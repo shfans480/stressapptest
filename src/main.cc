@@ -17,6 +17,8 @@
 #include "sattypes.h"
 #include "sat.h"
 
+/*Updated by Eric in 2019*/
+
 int main(int argc, char **argv) {
   Sat *sat = SatFactory();
   if (sat == NULL) {
